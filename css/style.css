@@ -38,12 +38,12 @@ h2 {
 }
 /*Lnks*/
 a {
-    color: #13122d; /* A professional, calming blue */
-    text-decoration: none; /* Remove underlines by default */
+    color: #13122d;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #5e4a8b; /* A slightly darker blue on hover */
-    text-decoration: underline; /* Add underline on hover */
+    color: #5e4a8b;
+    text-decoration: underline;
 }
