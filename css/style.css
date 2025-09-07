@@ -52,3 +52,14 @@ color: #ecf0f1;
 padding: 20px;
 text-align: center;
 }/*using the comma to do two things at once*/
+
+header table, footer table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+header table td, footer table td {
+padding: 15px;
+}
+
