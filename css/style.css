@@ -63,3 +63,10 @@ header table td, footer table td {
 padding: 15px;
 }
 
+header table a, footer table a {
+color: #ecf0f1;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
