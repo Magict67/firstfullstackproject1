@@ -70,3 +70,17 @@ text-transform: uppercase;
 letter-spacing: 1px;
 }
 
+main section {
+margin-bottom: 40px;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 8px;
+}
+
+
+table {
+width: 100% !important;
+border: none !important;
+padding: 0 !important;
+border-collapse: collapse;
+}
