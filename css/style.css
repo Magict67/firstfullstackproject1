@@ -78,5 +78,14 @@ padding: 0 !important;
 border-collapse: collapse;
 }
 
+td {
+padding: 15px !important;
+border: none !important;
+vertical-align: top;
+text-align: left !important;
+}
+
+
+
 
 
