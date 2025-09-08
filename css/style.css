@@ -46,3 +46,37 @@ a:hover {
     color: #5e4a8b;
     text-decoration: underline;
 }
+
+header, footer {
+background-color: #1a252f;
+color: #ecf0f1;
+padding: 20px;
+text-align: center;
+}
+
+header table, footer table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+header table td, footer table td {
+padding: 15px;
+}
+
+header table a, footer table a {
+color: #2e5c67;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+table {
+width: 100% !important;
+border: none !important;
+padding: 0 !important;
+border-collapse: collapse;
+}
+
+
+
