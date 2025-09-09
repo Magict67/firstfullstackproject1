@@ -102,6 +102,17 @@ font-family: 'Lato', Arial, sans-serif;
 transition: border-color 0.3s ease;
 }
 
+input[type="submit"]:hover {
+background-color: #138771;
+}
+
+hr {
+border: 0;
+height: 1px;
+background-color: #ddd;
+margin: 40px 0;
+}
+
 
 
 
