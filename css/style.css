@@ -36,6 +36,14 @@ h2 {
     font-size: 1.8em;
 }
 
+.container img {
+    max-width: 100%; /* use all container's width */
+    height: auto;  /* auto height adjust */
+    display: block; /* No space below image */
+    margin-bottom: 20px; /* This space below image */
+    border-radius: 8px; /* round corners */
+}
+
 a {
     color: #13122d;
     text-decoration: none;
