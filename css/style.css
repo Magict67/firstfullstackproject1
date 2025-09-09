@@ -85,6 +85,23 @@ vertical-align: top;
 text-align: left !important;
 }
 
+form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 4px;
+box-sizing: border-box; 
+font-family: 'Lato', Arial, sans-serif;
+transition: border-color 0.3s ease;
+}
+
 
 
 
