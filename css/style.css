@@ -122,7 +122,7 @@ margin: 40px 0;
 }
 
 .no-stretch {
-    max-width: 50%;
+    max-width: 50% !important;
     height: auto;
     display: block;
     margin: 0 auto;
