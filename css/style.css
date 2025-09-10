@@ -122,8 +122,8 @@ margin: 40px 0;
 }
 
 .no-stretch {
-    max-width: 50% !important;
-    height: auto;
+    width: 900px !important;
+    height: 400px !important;
     display: block;
     margin: 0 auto;
 }
