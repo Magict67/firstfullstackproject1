@@ -37,6 +37,14 @@ h2 {
     font-size: 1.8em;
 }
 
+.container img {
+    max-width: 100%; /* use all container's width */
+    height: auto;  /* auto height adjust */
+    display: block; /* No space below image */
+    margin-bottom: 20px; /* This space below image */
+    border-radius: 8px; /* round corners */
+}
+
 a {
     color: #6d6ba5;
     text-decoration: none;
@@ -47,13 +55,13 @@ a:hover {
     color: #5e4a8b;
     text-decoration: underline;
 }
+
 header, footer {
 background-color: #1a252f;
 color: #3f8394;
 padding: 20px;
 text-align: center;
 }
-/*using the comma to do two things at once*/
 
 header table, footer table {
 width: 100%;
@@ -66,19 +74,11 @@ padding: 15px;
 }
 
 header table a, footer table a {
-color: #527078;
+color: #2e5c67;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 1px;
 }
-
-main section {
-margin-bottom: 40px;
-padding: 20px;
-background-color: #ffffff;
-border-radius: 8px;
-}
-
 
 table {
 width: 100% !important;
@@ -86,3 +86,48 @@ border: none !important;
 padding: 0 !important;
 border-collapse: collapse;
 }
+
+td {
+padding: 15px !important;
+border: none !important;
+vertical-align: top;
+text-align: left !important;
+}
+
+form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 4px;
+box-sizing: border-box; 
+font-family: 'Lato', Arial, sans-serif;
+transition: border-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+background-color: #138771;
+}
+
+hr {
+border: 0;
+height: 1px;
+background-color: #ddd;
+margin: 40px 0;
+}
+
+.no-stretch {
+    width: 900px !important;
+    height: 400px !important;
+    display: block;
+    margin: 0 auto;
+}
+
+
+

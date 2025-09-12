@@ -44,6 +44,9 @@
         <td align="center">
             <b><a href="san-diego-resources.html" onclick="openOrFocusTab('san-diego-resources.html', 'resources'); return false;">Resources</a></b>
         </td>
+        <td align="center">
+            <b><a href="image-gallery.html">Image Gallery</a></b>
+        </td>
     </tr>
 </table>
 <hr>
@@ -53,6 +56,7 @@
 <main>
     <div class="container">
     <section>
+        <img src="images/Teamwork_1.jpg" alt="Helping across river.">
         <h2>Get In Touch</h2>
         <p>We welcome inquiries from potential participants, community partners, donors, and anyone interested in our mission.</p>
         
@@ -64,19 +68,19 @@
         </p>
         
         <h3>Send Us a Message</h3>
-        <form>
+        <form action="https://formspree.io/f/mnnbwajk" method="POST">
             <table cellpadding="5">
                 <tr>
                     <td><label for="name">Your Name:</label></td>
-                    <td><input type="text" id="name" name="name" size="30"></td>
+                    <td><input type="text" id="name" name="name" size="30" required></td>
                 </tr>
                 <tr>
                     <td><label for="email">Email Address:</label></td>
-                    <td><input type="email" id="email" name="email" size="30"></td>
+                    <td><input type="email" id="email" name="email" size="30" required></td>
                 </tr>
                 <tr>
                     <td><label for="subject">Subject:</label></td>
-                    <td><input type="text" id="subject" name="subject" size="30"></td>
+                    <td><input type="text" id="subject" name="subject" size="30" required></td>
                 </tr>
                 <tr>
                     <td valign="top"><label for="message">Message:</label></td>
@@ -91,6 +95,7 @@
     </section>
     
     <section>
+        <img src="images/Teamwork_2.jpg" alt="Cats Hanging.">
         <h2>Program Inquiries</h2>
         <p>If you or someone you know might be eligible for our program and would like to learn more about our intake process, please contact us using the information above.</p>
     </section>
