@@ -129,5 +129,81 @@ margin: 40px 0;
     margin: 0 auto;
 }
 
+/*fix obsolete html*/
+.donation-message {
+    text-align: center;
+}
 
+/* Use CSS Flex box instead of HTML table for layout */
+.donation-links {
+    display: flex;
+    justify-content: space-around; /* items space  */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+}
 
+.donation-item {
+    text-align: center;
+    padding: 15px; /* newer cellpadding */
+}
+
+/* Using HTML table for visual was more of a pain than helpful. Evenin understanding */
+.main-nav {
+    background-color: #f0f0f0; /* cleaner */
+    padding: 10px 0; /* new */
+}
+
+.main-nav ul {
+    list-style: none; /* bullets = obsolete */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav li {
+    padding: 0 10px; /* list spacing */
+}
+
+.main-nav a {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2c3e50; /* color match still wrong */
+}
+
+/* replace table for consistency */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+}
+
+.form-group label {
+    margin-bottom: 5px; /* label and input space */
+}
+
+.form-group.submit-group {
+    align-items: flex-end; /* Aligns submit button */
+}
+
+textarea {
+    resize: vertical; /* Allows user verticle resize not horizontally */
+    min-height: 100px;
+}
+
+/* NEVER USE HTML IN AN OBSOLETE WAY AGAIN, FIXING IT IS NOT FUN */
+.footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centers link */
+    gap: 20px; /* space links */
+}
+
+.footer-nav a {
+    color: #ffffff; /* link color white */
+    font-weight: 700;
+    text-transform: uppercase;
+}

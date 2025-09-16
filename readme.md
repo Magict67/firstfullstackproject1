@@ -30,3 +30,8 @@ This is a static website and does not require any special setup to run. To use i
 1.  **Grant Information Integration:** Based on the "Christian Transition and Transformation" document, integrate a dynamic section on the website that provides up-to-date information on specific California grants and funding eligibility.
 2.  **Add a Dynamic Testimonial Section:** Implement a JavaScript-powered testimonial slider or section that displays success stories from program participants to build trust and demonstrate the program's effectiveness.
 3.  **Create a Blog or News Section:** Add a blog page where the organization can post updates, success stories, and relevant information, helping to increase engagement and improve search engine visibility.
+
+### Learning notes
+* Tried to do everything in HTML at first to see how far I could go with only html. When I tried to validate I come up wit a ton of code that I put it that did what I 
+want but because I did it in HTML it shows up as an error because the element is obsolete. and I Get a message. "Use CSS instead."
+## I literally need to go back and remove all the "FUN" but obsolete garbage I put in each of my pages
