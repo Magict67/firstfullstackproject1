@@ -93,10 +93,10 @@ hr {
 }
 
 .main-nav, .footer-nav {
-    background-color: #f0f0f0; /* Set a background color for the navigation */
+    background-color: #f0f0f0;
     padding: 10px 0;
     border-radius: 8px;
-    margin-bottom: 20px; /* Adds space between the nav and the next element */
+    margin-bottom: 20px;
 }
 
 .main-nav ul, .footer-nav ul {
@@ -109,20 +109,22 @@ hr {
     gap: 20px;
 }
 
-.main-nav a, .footer-nav a {
+.main-nav a {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #2c3e50; /* A darker color for better contrast on a light background */
+    color: #2c3e50;
 }
 
 .footer-nav a {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     color: #ffffff;
 }
 
-/* Updated styles for the main navigation to fix the background issue */
-.main-nav {
-    background-color: #f0f0f0;
+.footer-nav {
+    background-color: transparent;
 }
 
 .footer-links-container {
