@@ -125,3 +125,38 @@ hr {
 .main-nav {
     background-color: #f0f0f0;
 }
+
+.footer-links-container {
+    padding-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-links a, .footer-bottom-links a {
+    color: #ffffff;
+    font-weight: normal;
+    text-transform: none;
+}
