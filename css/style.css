@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
 
-
 body {
     font-family: 'Lato', Arial, sans-serif;
     line-height: 1.6;
@@ -38,11 +37,11 @@ h2 {
 }
 
 .container img {
-    max-width: 100%; /* container width */
-    height: auto;  /* aheight adjust */
-    display: block; /* 0 space below image */
-    margin-bottom: 20px; /* margin below image */
-    border-radius: 8px; /* corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 a {
@@ -57,69 +56,17 @@ a:hover {
 }
 
 header, footer {
-background-color: #2c3e50;
-color: #ffffff;
-padding: 20px;
-text-align: center;
-}
-
-header table, footer table {
-width: 100%;
-border-collapse: collapse;
-margin-bottom: 20px;
-}
-
-header table td, footer table td {
-padding: 15px;
-}
-
-header table a, footer table a {
-color: #2e5c67;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 1px;
-}
-
-table {
-width: 100% !important;
-border: none !important;
-padding: 0 !important;
-border-collapse: collapse;
-}
-
-td {
-padding: 15px !important;
-border: none !important;
-vertical-align: top;
-text-align: left !important;
-}
-
-form {
-max-width: 600px;
-margin: 0 auto;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-width: 100%;
-padding: 12px;
-border: 1px solid #9ce3a6;
-border-radius: 4px;
-box-sizing: border-box; 
-font-family: 'Lato', Arial, sans-serif;
-transition: border-color 0.3s ease;
-}
-
-input[type="submit"]:hover {
-background-color: #5a8c88;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
 }
 
 hr {
-border: 0;
-height: 1px;
-background-color: #5a8c88;
-margin: 40px 0;
+    border: 0;
+    height: 1px;
+    background-color: #5a8c88;
+    margin: 40px 0;
 }
 
 .no-stretch {
@@ -129,81 +76,52 @@ margin: 40px 0;
     margin: 0 auto;
 }
 
-/*fix obsolete html*/
-.donation-message {
+.donation-header {
     text-align: center;
 }
 
-/* Use CSS Flex box instead of HTML table for layout */
 .donation-links {
     display: flex;
-    justify-content: space-around; /* items space  */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    gap: 40px;
     margin-bottom: 20px;
 }
 
 .donation-item {
     text-align: center;
-    padding: 15px; /* newer cellpadding */
+    padding: 15px;
 }
 
-/* Using HTML table for visual was more of a pain than helpful. Evenin understanding */
-.main-nav {
-    background-color: #f0f0f0; /* cleaner */
-    padding: 10px 0; /* new */
+.main-nav, .footer-nav {
+    background-color: transparent;
+    padding: 10px 0;
 }
 
-.main-nav ul {
-    list-style: none; /* bullets = obsolete */
+.main-nav ul, .footer-nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.main-nav li {
-    padding: 0 10px; /* list spacing */
-}
-
-.main-nav a {
+.main-nav a, .footer-nav a {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #2c3e50; /* color match still wrong */
+    color: #ffffff;
 }
 
-/* replace table for consistency */
-.form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px; 
-}
-
-.form-group label {
-    margin-bottom: 5px; /* label and input space */
-}
-
-.form-group.submit-group {
-    align-items: flex-end; /* Aligns submit button */
-}
-
-textarea {
-    resize: vertical; /* Allows user verticle resize not horizontally */
-    min-height: 100px;
-}
-
-/* NEVER USE HTML IN AN OBSOLETE WAY AGAIN, FIXING IT IS NOT FUN */
-.footer-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-    display: flex;
-    justify-content: center; /* Centers link */
-    gap: 20px; /* space links */
+.main-nav a {
+    color: #2e5c67;
 }
 
 .footer-nav a {
-    color: #ffffff; /* link color white */
-    font-weight: 700;
-    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.main-nav {
+    background-color: #f0f0f0;
 }
