@@ -171,3 +171,7 @@ hr {
     font-weight: normal;
     text-transform: none;
 }
+
+.small-space {
+    height: 15px; /* change number make space bigger or smaller */
+}
